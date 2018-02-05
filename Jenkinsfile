@@ -4,7 +4,6 @@ pipeline {
     stage('Node Update') {
       steps {
         sh 'npm -v'
-        sh 'npm prune'
         sh 'npm install'
       }
     }
