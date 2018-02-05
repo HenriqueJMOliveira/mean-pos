@@ -1,0 +1,8 @@
+{
+    "verbose": true,    
+    "ignore": [
+      "server/tests",
+      "angular-src",
+      "node_modules"
+    ]
+}
