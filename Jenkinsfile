@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Unit Testing') {
       steps {
-        sh 'npm jenk-unit-test'
+        sh 'npm run jenk-unit-test'
       }
     }
   }
