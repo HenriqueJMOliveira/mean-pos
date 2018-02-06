@@ -5,11 +5,12 @@ pipeline {
       steps {
         sh 'npm -v'
         sh 'npm install'
+        sh 'npm prune'
       }
     }
     stage('Unit Testing') {
       steps {
-        sh 'npm test'
+        sh 'npm jenk-unit-test'
       }
     }
   }
